@@ -18,17 +18,17 @@ public class KTTBT {
      */
     static Scanner input = new Scanner(System.in);
 
-    public String[][] nhapF(String allTapR[][], int n) {
+    public String[][] nhapF(String tapPTH[][], int n) {
 
         //input.nextLine();
         for (int i = 0; i < n; i++) {
             System.out.println("phụ thuộc hàm thứ" + (i + 1));
             for (int j = 0; j < 2; j++) {
-                allTapR[i][j] = input.nextLine();
+                tapPTH[i][j] = input.nextLine();
             }
 
         }
-        return allTapR;
+        return tapPTH;
     }
 
     public boolean XetBaoToanThongTin(String mangXBTTT[][]) {
