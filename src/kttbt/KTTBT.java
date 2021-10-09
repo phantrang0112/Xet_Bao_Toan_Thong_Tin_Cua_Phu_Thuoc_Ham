@@ -235,6 +235,7 @@ public class KTTBT {
                             if (mangXBTTT[i][j].contains("a")) {
                                 tamString = mangXBTTT[i][j];
 //                                System.out.println("ksj" + tamString);
+                                break;
 
                             } else {
                                 tamB = mangXBTTT[i][j];
